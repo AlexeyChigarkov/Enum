@@ -130,7 +130,7 @@ namespace Scheduleenum3
                 result = Int32.TryParse(Console.ReadLine(), out input);
                 if (!result | input > f | input < s)
                 {
-                    Console.WriteLine("Invalid input. Try Again");
+                    Console.WriteLine("Invalid input. Try Again!");
                 }
             }
             while (!result | input > f | input < s);
